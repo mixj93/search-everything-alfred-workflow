@@ -1,0 +1,17 @@
+{
+  "name": "user.workflow.173D420E-7675-4629-AF0B-ADB761E1BC5D",
+  "version": "1.0.0",
+  "description": "",
+  "main": "search_everything.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "mixj93 <lixueli93@gmail.com> (http://mixj93.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2",
+    "moment": "2.19.3",
+    "superagent": "3.8.1"
+  }
+}
