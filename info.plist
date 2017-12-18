@@ -45,6 +45,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>CBF37978-1B0F-4E5F-8C1B-5A44AA3A76B2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D2148B2F-B150-43C1-BAD3-54F0165CC4ED</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>F9325154-94B4-4F74-BDB8-740CCC42907B</key>
 		<array>
 			<dict>
@@ -276,6 +289,35 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"JavaScript","arg":"https:\/\/repl.it\/languages\/javascript","subtitle":"The de facto language of the Web."},{"title":"HTML, CSS, JS","arg":"https:\/\/repl.it\/languages\/web_project","subtitle":"The languages that make up the web."},{"title":"Go","arg":"https:\/\/repl.it\/languages\/go","subtitle":"Statically typed yet expressive language with a focus on concurrency."},{"title":"Lua","arg":"https:\/\/repl.it\/languages\/lua","subtitle":"A lightweight multi-paradigm scripting language."},{"title":"Nodejs","arg":"https:\/\/repl.it\/languages\/nodejs","subtitle":"Evented I\/O for v8 Javascript."}]</string>
+				<key>keyword</key>
+				<string>repl</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>打开 repl.it，快速编写代码</string>
+				<key>title</key>
+				<string>打开 repl.it</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>CBF37978-1B0F-4E5F-8C1B-5A44AA3A76B2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -286,7 +328,7 @@
 			<key>xpos</key>
 			<integer>60</integer>
 			<key>ypos</key>
-			<integer>490</integer>
+			<integer>350</integer>
 		</dict>
 		<key>4346CE99-482A-4DA7-957F-759B9955D315</key>
 		<dict>
@@ -301,6 +343,13 @@
 			<integer>60</integer>
 			<key>ypos</key>
 			<integer>230</integer>
+		</dict>
+		<key>CBF37978-1B0F-4E5F-8C1B-5A44AA3A76B2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>480</integer>
 		</dict>
 		<key>D2148B2F-B150-43C1-BAD3-54F0165CC4ED</key>
 		<dict>
