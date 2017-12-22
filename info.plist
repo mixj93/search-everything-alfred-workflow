@@ -45,6 +45,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A6084C35-C6EE-4930-8FFE-230AA9E852A2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D2148B2F-B150-43C1-BAD3-54F0165CC4ED</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>CBF37978-1B0F-4E5F-8C1B-5A44AA3A76B2</key>
 		<array>
 			<dict>
@@ -318,6 +331,53 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>cnjc</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>正在搜索，请稍作等待...</string>
+				<key>script</key>
+				<string>/usr/local/bin/node cnjc.js "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>搜索菜鸟教程获取教程信息</string>
+				<key>title</key>
+				<string>搜索菜鸟教程</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>A6084C35-C6EE-4930-8FFE-230AA9E852A2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -344,12 +404,19 @@
 			<key>ypos</key>
 			<integer>230</integer>
 		</dict>
+		<key>A6084C35-C6EE-4930-8FFE-230AA9E852A2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>590</integer>
+		</dict>
 		<key>CBF37978-1B0F-4E5F-8C1B-5A44AA3A76B2</key>
 		<dict>
 			<key>xpos</key>
 			<integer>60</integer>
 			<key>ypos</key>
-			<integer>480</integer>
+			<integer>470</integer>
 		</dict>
 		<key>D2148B2F-B150-43C1-BAD3-54F0165CC4ED</key>
 		<dict>
