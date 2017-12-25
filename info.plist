@@ -19,6 +19,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>35CF4B4F-DD2E-42F4-8F9B-5003000CCD0B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D2148B2F-B150-43C1-BAD3-54F0165CC4ED</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4346CE99-482A-4DA7-957F-759B9955D315</key>
 		<array>
 			<dict>
@@ -71,6 +84,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D2148B2F-B150-43C1-BAD3-54F0165CC4ED</key>
+		<array/>
 		<key>F9325154-94B4-4F74-BDB8-740CCC42907B</key>
 		<array>
 			<dict>
@@ -139,6 +154,53 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>4346CE99-482A-4DA7-957F-759B9955D315</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>hs</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>正在查询，请稍作等待...</string>
+				<key>script</key>
+				<string>/usr/local/bin/node hearthstone.js "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>查询炉石传说卡牌信息</string>
+				<key>title</key>
+				<string>查询炉石传说卡牌</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>35CF4B4F-DD2E-42F4-8F9B-5003000CCD0B</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -389,6 +451,13 @@
 			<integer>60</integer>
 			<key>ypos</key>
 			<integer>350</integer>
+		</dict>
+		<key>35CF4B4F-DD2E-42F4-8F9B-5003000CCD0B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>420</integer>
+			<key>ypos</key>
+			<integer>80</integer>
 		</dict>
 		<key>4346CE99-482A-4DA7-957F-759B9955D315</key>
 		<dict>

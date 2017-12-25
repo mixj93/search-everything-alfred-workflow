@@ -1,5 +1,5 @@
 {
-  "name": "user.workflow.173D420E-7675-4629-AF0B-ADB761E1BC5D",
+  "name": "searcheverything",
   "version": "1.0.0",
   "description": "",
   "main": "search_everything.js",
@@ -12,6 +12,9 @@
   "dependencies": {
     "cheerio": "1.0.0-rc.2",
     "moment": "2.19.3",
+    "q": "1.5.1",
+    "request": "2.83.0",
+    "request-promise": "4.2.2",
     "superagent": "3.8.1"
   }
 }
