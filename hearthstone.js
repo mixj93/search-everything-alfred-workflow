@@ -39,7 +39,7 @@ superagent.get(`http://cha.17173.com/hs/search?q=${encodeURIComponent(keyword)}`
       result_array.push({
         title: `${name} ${job} ${type}`,
         subtitle: desc,
-        arg: `http://cha.17173.com/${linkArr[i]}`,
+        arg: `http://cha.17173.com${linkArr[i]}`,
         type: 'default',
         icon: {
           type: 'default',
