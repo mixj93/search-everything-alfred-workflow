@@ -34,8 +34,10 @@ superagent.get(`http://cha.17173.com/hs/search?q=${encodeURIComponent(keyword)}`
       var $ = cheerio.load(html)
       var name = $('.pop-tit').text()
       var desc = $('.pop-nr').text()
+      var job = $('.pop-box1 .pop-box1').text()
+      var type = $('.pop-box2 .pop-box2').text()
       result_array.push({
-        title: name,
+        title: `${name} ${job} ${type}`,
         subtitle: desc,
         arg: `http://cha.17173.com/${linkArr[i]}`,
         type: 'default',
